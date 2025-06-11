@@ -246,9 +246,9 @@ streamlit-autorefresh
 
 ## 🧑‍💻 Author
 
-**Malik**
-IU University – Task 2 Submission
-`Real-Time Data-Intensive Backend`
+**Malik Naseruddin**
+IU University – Task Submission
+`AI Use Case Project`
 
 ---
 
