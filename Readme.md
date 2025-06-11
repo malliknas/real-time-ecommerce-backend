@@ -43,6 +43,15 @@ git clone https://github.com/your-username/real-time-ecommerce-backend.git
 cd real-time-ecommerce-backend
 ```
 
+### 2️⃣ Make Kafka Wait Script Executable
+
+The simulator includes a script (`wait-for-kafka.sh`) that ensures Kafka is available before sending data.
+You must mark it executable:
+
+```bash
+chmod +x simulator/wait-for-kafka.sh
+```
+
 ### 2️⃣ Start All Services
 
 ```bash
@@ -73,8 +82,10 @@ This will start all components: Kafka, ZooKeeper, PostgreSQL, Simulator, Consume
 ├── .env
 ├── docker-compose.yml
 ├── Architecture/
-│   ├── image.png
-│   └── image2.png
+│   ├── architecture.png
+│   ├── fastapi_swagger.png
+│   ├── streamlit_dashboard.png
+│   └── kafka_output.png
 ├── backend/
 │   ├── app.py
 │   ├── Dockerfile
@@ -94,6 +105,7 @@ This will start all components: Kafka, ZooKeeper, PostgreSQL, Simulator, Consume
 │   ├── data_simulator.py
 │   ├── Dockerfile
 │   ├── requirements.txt
+│   ├── wait-for-kafka.sh
 │   └── .env
 ```
 
@@ -219,5 +231,29 @@ streamlit-autorefresh
 
 ---
 
+## 📸 Screenshots
 
+> Screenshots for:
+>
+> * Architecture
+> * Kafka consumer output
+> * FastAPI Swagger UI
+> * Streamlit Dashboard
+>
+> ➡️ Added in `Architecture/`.
 
+---
+
+## 🧑‍💻 Author
+
+**Malik**
+IU University – Task 2 Submission
+`Real-Time Data-Intensive Backend`
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the MIT License.
+
+```
