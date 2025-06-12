@@ -248,7 +248,7 @@ streamlit-autorefresh
 
 **Malik Naseruddin**
 IU University – Task Submission
-`AI Use Case Project`
+`Data Engineering Project`
 
 ---
 
