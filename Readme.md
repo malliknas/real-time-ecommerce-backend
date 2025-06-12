@@ -39,7 +39,7 @@ The goal is to establish a reliable, scalable, and maintainable infrastructure f
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/real-time-ecommerce-backend.git
+git clone https://github.com/malliknas/real-time-ecommerce-backend.git
 cd real-time-ecommerce-backend
 ```
 
